@@ -1,0 +1,89 @@
+@import url('mainfonts.css');
+@import url('color.css');
+
+* {
+	margin-top:0;
+	padding-top:0;
+}
+
+body {
+	font-family: 'TeXGyreHeros', '학교안심 바른돋움', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+p {
+	font-family: 'TeXGyreTermes', '학교안심 바른바탕', serif;
+}
+
+p a {
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius:3px;
+	color: var(--ac-col);
+	background-color: var(--bg-ac-col);
+}
+div.docframe {
+	display:flex;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+}
+div.sidebar {
+	background-color: var(--bg-ac-col);
+	flex: 0 0 200px; 
+	padding: 2em 1em 0em 1em; 
+}
+div.sidebar ul {
+	list-style: none; 
+	margin-block-start: 0px;
+	margin-block-end: 1em;
+	padding-inline-start: 1em;
+}
+
+div.article {	
+	flex:1;
+	position:relative;
+	padding: 2em 2em 2em 2em; 
+}
+
+div.article h1 {
+	margin-bottom:0.5ex;
+	padding-bottom:0.5ex;
+	border-bottom-color: var(--ac-col);
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+}
+
+div.article h2 {}
+
+div.article h3 {
+	margin-bottom:0.5ex;
+	padding-bottom:0.5ex;
+	border-bottom-color:var(--ac-col);
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+}
+
+div.article h4 {
+	color:var(--ac-col);
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+div.article h5 {}
+
+div.article_header {
+	min-height: 5em;
+}
+
+p strong {
+	font-family: 'TeXGyreHeros', '학교안심 바른돋움', sans-serif;
+	color: var(--ac-col);
+}
+
+div.sidebar h3 {
+	margin:0;
+	padding:0;
+	color:var(--ac-col);
+}
