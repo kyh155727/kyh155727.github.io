@@ -1,0 +1,83 @@
+@font-face {
+	font-family: '학교안심 바른바탕';
+	src: url('../fonts/basefonts/HakgyoansimBareonbatangB.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '학교안심 바른바탕';
+	src: url('../fonts/basefonts/HakgyoansimBareonbatangR.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '학교안심 바른돋움';
+	src: url('../fonts/basefonts/HakgyoansimBareondotumB.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '학교안심 바른돋움';
+	src: url('../fonts/basefonts/HakgyoansimBareondotumR.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('../fonts/basefonts/texgyreheros-bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('../fonts/basefonts/texgyreheros-bolditalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('../fonts/basefonts/texgyreheros-italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('../fonts/basefonts/texgyreheros-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreTermes';
+	src: url('../fonts/basefonts/texgyretermes-bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'TeXGyreTermes';
+	src: url('../fonts/basefonts/texgyretermes-bolditalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreTermes';
+	src: url('../fonts/basefonts/texgyretermes-italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreTermes';
+	src: url('../fonts/basefonts/texgyretermes-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}

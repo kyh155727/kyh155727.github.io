@@ -1,0 +1,133 @@
+
+@font-face {
+	font-family: 'Lato Thin';
+	src: url('../fonts/extrafonts/Lato-Thin.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/extrafonts/texgyreadventor-bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'Lato Thin';
+	src: url('../fonts/extrafonts/Lato-ThinItalic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cantarell Thin';
+	src: url('../fonts/extrafonts/Cantarell-Thin.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/extrafonts/texgyreadventor-bolditalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: Bold Italic;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/extrafonts/texgyreadventor-italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('../fonts/extrafonts/texgyreadventor-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreChorus';
+	src: url('../fonts/extrafonts/texgyrechorus-mediumitalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('../fonts/extrafonts/texgyreheroscn-bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('../fonts/extrafonts/texgyreheroscn-bolditalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('../fonts/extrafonts/texgyreheroscn-italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('../fonts/extrafonts/texgyreheroscn-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Pagella';
+	src: url('../fonts/extrafonts/texgyrepagella-bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Pagella';
+	src: url('../fonts/extrafonts/texgyrepagella-bolditalic.woff2') format('woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Pagella';
+	src: url('../fonts/extrafonts/texgyrepagella-italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeX Gyre Pagella';
+	src: url('../fonts/extrafonts/texgyrepagella-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans KR Bold';
+	src: url('../fonts/extrafonts/NotoSansKR-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans KR Regular';
+	src: url('../fonts/extrafonts/NotoSansKR-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans KR Thin';
+	src: url('../fonts/extrafonts/NotoSansKR-Thin.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
