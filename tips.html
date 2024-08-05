@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tips</title>
+</head>
+<body>
+<center>
+	<h1>Tips</h1>
+</center>
+<hr>
+<h2>PDF 문서의 조작</h2>
+<hr>
+<details>
+	<summary>
+		회색 글자를 검은 색으로 인쇄하기
+	</summary>
+	<p>
+	Q. 집에 있는 저화질 흑백 프린터로 PDF 문서를 인쇄했는데, 글씨의 색상 값이 회색으로 지정되어 있어서, 인쇄 시 회색 패턴으로 인해 비정상적으로 결과물이 뽑혔다. 회색 글자를 검은 색으로 바꾸어 인쇄하려면?
+	</p>
+	<p>
+		A. 다음과 같이 작업한다.
+		<ol>
+			<li>pdftk를 이용하여, 원본 PDF 문서의 압축을 푼다. (<code>uncompressed</code> 옵션을 활용한다.)</li>
+			<li>vim이나 nano 같은 가벼운 에디터로 압축이 풀린 PDF 문서를 연다. (무거운 에디터는 파일을 저장할 때 중요한 헤더나 인코딩 정보를 자동으로 변경해버리는 수가 있다. 이렇게 될 경우 저장할 때 파일이 깨진다.)</li>
+			<li><code>/DeviceRGB</code>나 <code>/DeviceCMYK</code> 문자열을 찾아서 모두 <code>/DeviceGray</code>로 바꾼다. 안 될 시 다른 색상 관련한 태그를 모두 흑백으로 바꾼다.</li>
+			<li>인쇄한다. 그럼 웹페이지 링크를 비롯한 모든 문자열이 100% 검은 색으로 인쇄됨.</li>
+		</ol>
+		자세한 원리는 모르겠는데, 아마 이렇게 바꾸면 글자의 색상값이 깨져서 검은색으로 자동으로 메꾸는 것 같다.
+	</p>
+</details>
+
+<hr>
+
+</body>
+</html>
